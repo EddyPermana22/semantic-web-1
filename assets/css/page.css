@@ -1,0 +1,208 @@
+body {
+	background-color: #ecf0f1;
+	font-family: 'Noto Sans', sans-serif;
+	margin-top: 50px;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	background-color: black;
+	min-height: 50px;
+	padding: 0 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.container-50 {
+	display: inline-block;
+	float: left;
+	width: 45%;
+	margin: 10px;
+}
+
+.container-30 {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	margin: 10px;
+	text-align: center;
+}
+
+#header-nav{
+	position: absolute;
+	right: 60px;
+	top: 15px;
+}
+
+#header-nav nav li {
+	display: inline-block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 10px;
+}
+
+#header-nav nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#header-nav nav ul li a,
+#header-nav nav ul li a:after,
+#header-nav nav ul li a:before {
+  transition: all 3s;
+}
+
+section {
+	min-height: 625px;
+}
+
+.section-inner {
+	font-family: 'Oxygen', Helvetica, sans-serif;
+}
+
+#home {
+	min-height: 625px;
+	/* background-image: url(https://lmpixels.com/demo/unique/unique-vcard/images/bg.png); */
+	background-image: url(https://lmpixels.com/demo/unique/unique-vcard/images/main_bg_light.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	opacity: 0.8;
+}
+
+#inner-home {
+	text-align: center;
+	position: relative;
+	top: 200px;
+	font-size: 70px;
+	font-weight: bold;
+	color: #ff724c;
+}
+
+#about {
+	background-color: #fff;
+	padding: 0 50px;
+	padding-top: 50px;
+	min-height: 400px;
+}
+
+#skill {
+	padding: 0 50px;
+	padding-top: 50px;
+	min-height: 300px;
+}
+
+#contact {
+	background-color: #fff;
+	padding: 0 50px;
+	padding-top: 50px;
+	min-height: 500px;
+}
+
+#contact h2, #about h2, #skill h2 {
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-size: 40px;
+    line-height: 1.1em;
+    color: #ff724c;
+    margin-bottom: 30px;
+}
+
+.container-50 h3 {
+	border-bottom: solid 3px black;
+	padding-bottom: 5px;
+	margin: 15px auto;
+}
+
+.container-50 form div {
+	margin: 20px 0;
+}
+
+.container-50 form div input, .container-50 form div textarea{
+	width: 100%;
+}
+
+.container-30 p {
+	margin: 10px;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+#inner-about > div > div:nth-child(3) {
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.contact-info {
+	width: 100%;
+	padding: 10px 10px 10px 0;
+}
+
+footer {
+	background-color: black;
+	min-height: 30px;
+	color: #eee;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#my-photo{
+	width: 200px;
+	border-radius: 10px;
+	border: 3px solid #eee;
+	box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.info-left{
+	text-align: left;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.info-right {
+	text-align: left;
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+.clear-fix {
+	clear: both;
+}
+
+#inner-skill > div {
+	text-align: center;
+}
+
+.skill-item {
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+#inner-skill > div > div > img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px
+}
+
+#inner-skill > div > div > h3 {
+	font-weight: bold;
+	font-size: 20px;
+	
+}
